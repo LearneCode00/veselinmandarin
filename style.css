@@ -231,7 +231,6 @@ main{
     }
 }
 
-
 /* ===== ABout SECTION START =====*/
 #about{
     padding: 70px 30px;
@@ -428,7 +427,7 @@ main{
     color: var(--bgColor);
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 740px){
     #portfolio{
         padding: 50px 10px;
     }
@@ -437,7 +436,7 @@ main{
         grid-gap: 15px;
     }
 }
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 450px){
     #portfolio .port-row{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
